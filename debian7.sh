@@ -211,19 +211,19 @@ service webmin restart
 
 # download script
 cd /usr/bin
-wget -O menu "https://raw.githubusercontent.com/xviseneed/debian7_32bit/master/menu.sh"
-wget -O usernew "https://raw.githubusercontent.com/xviseneed/debian7_32bit/master/usernew.sh"
-wget -O trial "https://raw.githubusercontent.com/xviseneed/debian7_32bit/master/trial.sh"
-wget -O hapus "https://raw.githubusercontent.com/xviseneed/debian7_32bit/master/hapus.sh"
-wget -O login "https://raw.githubusercontent.com/xviseneed/debian7_32bit/master/user-login.sh"
-wget -O dropmon "https://raw.githubusercontent.com/xviseneed/debian7_32bit/master/dropmon.sh"
+wget -O menu "https://raw.githubusercontent.com/yonatankanu/debian7_32bit/master/menu.sh"
+wget -O usernew "https://raw.githubusercontent.com/yonatankanu/debian7_32bit/master/usernew.sh"
+wget -O trial "https://raw.githubusercontent.com/yonatankanu/debian7_32bit/master/trial.sh"
+wget -O hapus "https://raw.githubusercontent.com/yonatankanu/debian7_32bit/master/hapus.sh"
+wget -O login "https://raw.githubusercontent.com/yonatankanu/debian7_32bit/master/user-login.sh"
+wget -O dropmon "https://raw.githubusercontent.com/yonatankanu/debian7_32bit/master/dropmon.sh"
 wget -O user-expired "https://raw.githubusercontent.com/ForNesiaFreak/FNS_Debian7/fornesia.com/freak/user-expired.sh"
-wget -O member "https://raw.githubusercontent.com/xviseneed/debian7_32bit/master/user-list.sh"
-wget -O restart "https://raw.githubusercontent.com/xviseneed/debian7_32bit/master/resvis.sh"
+wget -O member "https://raw.githubusercontent.com/yonatankanu/debian7_32bit/master/user-list.sh"
+wget -O restart "https://raw.githubusercontent.com/yonatankanu/debian7_32bit/master/resvis.sh"
 wget -O speedtest "https://raw.githubusercontent.com/ForNesiaFreak/FNS_Debian7/fornesia.com/null/speedtest_cli.py"
 wget -O bench-network "https://raw.githubusercontent.com/ForNesiaFreak/FNS_Debian7/fornesia.com/null/bench-network.sh"
 wget -O ps-mem "https://raw.githubusercontent.com/ForNesiaFreak/FNS_Debian7/fornesia.com/null/ps_mem.py"
-wget -O about "https://raw.githubusercontent.com/xviseneed/debian7_32bit/master/about.sh"
+wget -O about "https://raw.githubusercontent.com/yonatankanu/debian7_32bit/master/about.sh"
 echo "0 0 * * * root /usr/bin/reboot" > /etc/cron.d/reboot
 echo "* * * * * service dropbear restart" > /etc/cron.d/dropbear
 chmod +x menu
@@ -311,7 +311,7 @@ echo "Timezone : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
 echo "Fail2Ban : [on]"  | tee -a log-install.txt
 echo "IPv6     : [off]"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "Muahahaha"  | tee -a log-install.txt
+echo "http://yonatankanu.blogspot.co.id atau http://yonatankanu.wordpress.com"  | tee -a log-install.txt
 echo "Modified by Yonatan Kanu as THORN SSH"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Log Instalasi --> /root/log-install.txt"  | tee -a log-install.txt
